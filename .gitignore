@@ -6,6 +6,8 @@ Server-Files/*.crt
 Server-Files/citizen/
 Server-Files/crashes/
 Server-Files/QBCoreFramework_F50914.base/cache/
+txData/admins.json
+txData/default/config.json
 
 
 ## streamed assets
