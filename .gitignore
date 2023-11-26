@@ -1,0 +1,25 @@
+Server-Files/*.dll
+Server-Files/*.json
+Server-Files/*.exe
+Server-Files/*.key
+Server-Files/*.crt
+Server-Files/citizen/
+Server-Files/crashes/
+Server-Files/QBCoreFramework_F50914.base/cache
+Server-Files/QBCoreFramework_F50914.base/resources/cars-general
+Server-Files/QBCoreFramework_F50914.base/resources/cars-govt
+Server-Files/QBCoreFramework_F50914.base/resources/mlo
+Server-Files/QBCoreFramework_F50914.base/resources/eup-stream-f
+Server-Files/QBCoreFramework_F50914.base/resources/eup-stream-f-pd
+Server-Files/QBCoreFramework_F50914.base/resources/eup-stream-m
+Server-Files/QBCoreFramework_F50914.base/resources/eup-stream-m-pd
+Server-Files/QBCoreFramework_F50914.base/resources/eup-stream-m-wlist
+
+## remove # if need to ignore these files below.
+#Server-Files/QBCoreFramework_F50914.base/db
+#Server-Files/QBCoreFramework_F50914.base/permissions.cfg
+#Server-Files/QBCoreFramework_F50914.base/server.cfg
+#Server-Files/QBCoreFramework_F50914.base/server.cfg.bkp
+#Server-Files/QBCoreFramework_F50914.base/.replxx_history
+#Server-Files/QBCoreFramework_F50914.base/hypnonema.db
+#txData/
