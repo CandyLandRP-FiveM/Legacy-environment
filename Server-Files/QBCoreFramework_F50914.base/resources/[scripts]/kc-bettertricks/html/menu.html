@@ -1,0 +1,285 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script type="text/javascript" src="raphael.min.js"></script>
+    <script type="text/javascript" src="wheelnav.min.js"></script>
+    <script type="text/javascript" src="nui://game/ui/jquery.js"></script>
+
+    <!-- Default CSS styles -->
+    <style>
+        #wheelDiv > svg {
+            width: 100%;
+            height: 100%;
+        }
+        #wheelDiv {
+            width: 400px;
+            height: 400px;
+            margin: auto;
+        }
+        #container {
+            margin-top: 18%;
+            flex-direction: column;
+        }
+    </style>
+
+    <!-- Javascript code -->
+    <script type="text/javascript">
+        $(function() {
+            window.addEventListener('message', function(event) {
+                let lastSelectedItem = null;
+
+                // Initialize menu
+                if (event.data.type == 'init') {
+                    // Set global keybind and resource name
+                    menuKeybind = event.data.data.keybind;
+                    resourceName = event.data.resourceName
+
+                    // Get number of wheels and create array to hold them
+                    numWheels = 1;
+                    wheels = new Array(numWheels);
+
+                    // Get wheel style settings
+                    wheelStyle = event.data.data.style;
+
+                    // Set wheel size
+                    var wheelSize = wheelStyle.sizePx;
+                    document.getElementById("wheelDiv").style.width = wheelSize+"px";
+                    document.getElementById("wheelDiv").style.height = wheelSize+"px";
+
+                    // Set top margin to center wheel
+                    var marginTopSize = ($(window).height() - wheelSize) / 2;
+                    document.getElementById("container").style.marginTop = marginTopSize+"px";
+
+                    let centerX = wheelDiv.offsetWidth / 2;
+                    let centerY = wheelDiv.offsetHeight / 2;
+
+                    let centerCircle;
+
+                    StuntList = event.data.StuntList;
+
+                    let currentPage = 0;
+                    
+                    function updateWheelTitlesForPage(wheel, page, items) {
+                        const start = page * 8;
+                        const end = start + 8;
+                        const itemsForPage = items.slice(start, end);
+                        
+                        for (let i = 0; i < 8; i++) {
+                            if (i < itemsForPage.length) {
+                                wheel.navItems[i].setTitle(itemsForPage[i]);
+                            } else {
+                                wheel.navItems[i].setTitle("");
+                            }
+                        }
+                        wheel.refreshWheel(true);
+                    }
+
+                    // Create and initialize the wheel
+                    wheels[0] = new wheelnav('wheelDiv', null);
+
+                    wheelData = event.data.data.wheel;
+
+                    // console.log(StuntList);
+
+                    wheels[0].navAngle = wheelData.navAngle;
+                    wheels[0].clickModeRotate = false;
+                    wheels[0].slicePathFunction = slicePath().DonutSlice;
+                    wheels[0].slicePathCustom = slicePath().DonutSliceCustomization();
+                    wheels[0].slicePathCustom.minRadiusPercent = wheelData.minRadiusPercent;
+                    wheels[0].slicePathCustom.maxRadiusPercent = wheelData.maxRadiusPercent;
+                    wheels[0].sliceInitPathCustom = wheels[0].slicePathCustom;
+                    wheels[0].sliceHoverPathCustom = wheels[0].slicePathCustom;
+                    wheels[0].sliceSelectedPathCustom = wheels[0].slicePathCustom;
+                    wheels[0].slicePathAttr = wheelStyle.slices.default;
+                    wheels[0].sliceHoverAttr = wheelStyle.slices.hover;
+                    wheels[0].sliceSelectedAttr = wheelStyle.slices.selected;
+                    wheels[0].titleWidth = wheelStyle.icons.width;
+                    wheels[0].titleHeight = wheelStyle.icons.height;
+                    wheels[0].titleAttr = wheelStyle.titles.default;
+                    wheels[0].titleHoverAttr = wheelStyle.titles.hover;
+                    wheels[0].titleSelectedAttr = wheelStyle.titles.selected;
+                    if (StuntList.length > 10) {
+                        const start = currentPage * 8;
+                        const end = start + 8;
+                        const itemsForPage = StuntList.slice(start, end);
+                        wheels[0].createWheel(itemsForPage);
+                    } else {
+                        wheels[0].createWheel(StuntList);
+                    }
+
+                    for (let j = 0; j < wheels[0].navItems.length; j++) {
+                        wheels[0].navItems[j].selected = false;
+
+                        const navItem = wheels[0].navItems[j];
+                        const execCmd = navItem.title;
+
+                        console.log(`Command for ${navItem.title}: ${execCmd}`);
+
+                        navItem.navSlice.mouseover(function () {
+                            wheels[0].navItems.forEach((item) => {
+                                if (item !== navItem) {
+                                    item.selected = false;
+                                }
+                            });
+
+                            if (event.data.isInAnim) {
+                                centerCircle.attr({fill: '#34495e', opacity: 0.60});
+                                centerText.attr({fill: '#ecf0f1'});
+                            }
+
+                            navItem.selected = true;
+
+                            lastSelectedItem = { navItem, execCmd };
+
+                            wheels[0].refreshWheel();
+                        });
+                    }
+
+                    wheels[0].refreshWheel();
+
+                    if (StuntList.length > 10) {
+                        let totalPages = Math.ceil(StuntList.length / 8);
+
+                        let leftArrow = wheels[0].raphael.text(centerX - (wheelSize/2 - 6), centerY, "<");
+                        let rightArrow = wheels[0].raphael.text(centerX + (wheelSize/2 - 6), centerY, ">");
+
+                        leftArrow.attr({ "cursor": "pointer", "font-size": 20, "fill": "#ecf0f1", "font-family": "Helvetica", 'font-weight': 'bold' });
+                        rightArrow.attr({ "cursor": "pointer", "font-size": 20, "fill": "#ecf0f1", "font-family": "Helvetica", 'font-weight': 'bold' });
+
+                        leftArrow.mousedown(function(event) {
+                            if (event.which === 3) {
+                                currentPage = (currentPage > 0) ? currentPage - 1 : totalPages - 1;
+                                updateWheelTitlesForPage(wheels[0], currentPage, StuntList);
+                            }
+                        });
+
+                        rightArrow.mousedown(function(event) {
+                            if (event.which === 3) {
+                                currentPage = (currentPage + 1) % totalPages;
+                                updateWheelTitlesForPage(wheels[0], currentPage, StuntList);
+                            }
+                        });
+                    }
+
+                    let mouseupEnabled = true;
+
+                    $(document).on('mouseup', function(event) {
+                        if(event.which == 1) {
+                            if (mouseupEnabled && lastSelectedItem) {
+                                $.post('https://'+resourceName+'/mouseup', JSON.stringify({entry: lastSelectedItem.navItem.title}));
+                            }
+                            else if (!lastSelectedItem) {
+                                $.post('https://'+resourceName+'/mouseup', JSON.stringify({entry: "cancel"}));
+                            }
+                        }
+                    });
+
+                    let centerRadius = wheelData.minRadiusPercent * centerX / 1.5;
+
+                    centerCircle = wheels[0].raphael.circle(centerX, centerY, centerRadius);
+                    let centerText;
+
+                    let mouseupFunction = function (event) {
+                        if(event.which == 1) { 
+                            if (!mouseupEnabled) {
+                                $.post('https://'+resourceName+'/mouseup', JSON.stringify({entry: "cancel"}));
+                            }
+                        }
+                    };
+
+                    if (event.data.isInAnim) {  
+                        centerCircle.attr({fill: '#34495e', opacity: 0.6, stroke: "none"});
+                        centerText = wheels[0].raphael.text(centerX, centerY, "Cancel");
+                        centerText.attr({"font-size": 14, "fill": "#ecf0f1", "font-family": "Helvetica", "cursor": "default", 'font-weight': 'bold'});
+                        let activeCircle = wheels[0].raphael.circle(centerX, centerY, centerRadius);
+                        activeCircle.attr({fill: '#000', opacity: 0});
+
+                        activeCircle.mouseup(function () {
+                            $.post('https://'+resourceName+'/mouseup', JSON.stringify({entry: "cancel"}));
+                        });
+
+                        activeCircle.mouseover(function() {
+                            if (lastSelectedItem) {
+                                lastSelectedItem.navItem.selected = false;
+                                wheels[0].refreshWheel();
+                                lastSelectedItem = null;
+                            }
+                            mouseupEnabled = false;
+                            centerCircle.attr({fill: '#16a085', opacity: 0.80});
+                            centerText.attr({fill: '#ecf0f1'});
+                        });
+
+                        activeCircle.mouseout(function() {
+                            mouseupEnabled = true;
+                        });
+                    } else {
+                        centerCircle.attr({fill: '#000', opacity: 0, stroke: "none"});
+                    }
+
+                    centerCircle.mouseup(function(event) {
+                        mouseupFunction(event);
+                    });
+
+                    centerCircle.mouseover(function() {
+                        if (lastSelectedItem) {
+                            lastSelectedItem.navItem.selected = false;
+                            wheels[0].refreshWheel();
+                            lastSelectedItem = null;
+                        }
+                        mouseupEnabled = false;
+                    });
+
+                    centerCircle.mouseout(function() {
+                        mouseupEnabled = true;
+                    });
+                } else if (event.data.type == 'destroy') {
+                    if ((typeof wheels !== 'undefined') && (typeof numWheels !== 'undefined')) {
+                        wheels[0].removeWheel();
+                        
+                        delete wheels;
+                        delete numWheels;
+                    }
+                    $(document).off('mouseup');
+                } else if (event.data.type === 'saveGround') {
+                    // console.log("Saving ground to localStorage:", event.data.preferences);
+                    localStorage.setItem('stuntsGroundPreferences', JSON.stringify(event.data.preferences));
+                } else if (event.data.type === 'loadGround') {
+                    resourceName = event.data.resourceName
+                    let prefs = localStorage.getItem('stuntsGroundPreferences');
+                    // console.log("Loaded from ground localStorage:", prefs);
+                    
+                    if (prefs) {
+                        $.post('https://'+resourceName+'/loadedGround', JSON.stringify({preferences: JSON.parse(prefs)}));
+                    } else {
+                        let defaultPreferences = {};
+                        for (let stuntName in event.data.stuntsList) {
+                            defaultPreferences[stuntName] = true;
+                        }
+                        $.post('https://'+resourceName+'/loadedGround', JSON.stringify({preferences: defaultPreferences}));
+                    }
+                } else if (event.data.type === 'saveAir') {
+                    // console.log("Saving air to localStorage:", event.data.preferences);
+                    localStorage.setItem('stuntsAirPreferences', JSON.stringify(event.data.preferences));
+                } else if (event.data.type === 'loadAir') {
+                    let prefs = localStorage.getItem('stuntsAirPreferences');
+                    // console.log("Loaded from air localStorage:", prefs);
+                    if (prefs) {
+                        $.post('https://'+resourceName+'/loadedAir', JSON.stringify({preferences: JSON.parse(prefs)}));
+                    } else {
+                        $.post('https://'+resourceName+'/loadedAir', JSON.stringify({preferences: event.data.stuntsList}));
+                    }
+                }
+            });
+        });
+    </script>
+
+</head>
+<body>
+    <!-- HTML code -->
+    <div id="container">
+        <div id='wheelDiv' data-wheelnav>
+        </div>
+    </div>
+</body>
+</html>

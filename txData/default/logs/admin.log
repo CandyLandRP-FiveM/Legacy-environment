@@ -1,0 +1,137 @@
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 6683 Starting - 11/24/2023, 6:46:00 PM
+================================================================
+
+================================================================
+======== Log Rotated - 11/24/2023, 6:46:00 PM                   
+================================================================
+[18:50:31][andrew] logged in via in-game ui
+[18:52:17][dmoore6688] logged in via in-game ui
+[18:53:50][elvis] logged in via in-game ui
+[18:54:48][andrew] logged in via in-game ui
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 6683 Starting - 11/24/2023, 7:00:01 PM
+================================================================
+[19:00:16][dmoore6688] logged in from 127.0.0.1 via citizenfx
+[19:04:44][andrew] logged in via in-game ui
+[19:05:27][dmoore6688] logged in from 99.44.36.15 via citizenfx
+[19:05:27][andrew] logged in via in-game ui
+[19:08:40][andrew] logged in from 65.181.13.193 via citizenfx
+[19:08:40][andrew] logged in via in-game ui
+[19:19:03][elvis] logged in via in-game ui
+[19:28:24][dmoore6688] logged in via in-game ui
+[19:31:09][andrew] executed "restart pma-voice"
+[19:51:25][dmoore6688] executed "RESTART SERVER"
+[19:55:54][scrappy] logged in via in-game ui
+[20:02:57][Subnoize] logged in from 120.156.0.175 via citizenfx
+[20:02:57][scrappy] logged in via in-game ui
+[20:04:05][dmoore6688] logged in via in-game ui
+[20:11:12][elvis] logged in via in-game ui
+[20:14:04][andrew] logged in via in-game ui
+[20:14:07][scrappy] logged in via in-game ui
+[20:18:27][dmoore6688] executed "restart pma-voice"
+[20:19:52][dmoore6688] logged in via in-game ui
+[20:30:18][elvis] logged in via in-game ui
+[20:32:01][elvis] logged in via in-game ui
+[20:35:38][elvis] logged in via in-game ui
+[20:41:42][elvis] logged in via in-game ui
+[20:48:00][elvis] logged in via in-game ui
+[20:50:50][elvis] logged in via in-game ui
+[20:52:21][elvis] logged in via in-game ui
+[20:58:20][elvis] logged in via in-game ui
+[22:04:28][elvis] logged in via in-game ui
+[22:46:20][dmoore6688] logged in via in-game ui
+[23:11:57][dmoore6688] logged in from via NUI iframe
+[00:00:08][SCHEDULER] Restarting server (scheduled restart at 00:00).
+[00:03:09][elvis] logged in via in-game ui
+[00:05:07][elvis] logged in via in-game ui
+[00:06:33][elvis] logged in via in-game ui
+[00:08:27][elvis] logged in via in-game ui
+[00:12:30][Subnoize] logged in via in-game ui
+[00:13:16][dmoore6688] logged in via in-game ui
+[00:16:01][andrew] logged in via in-game ui
+[00:18:30][andrew] logged in via in-game ui
+[00:31:42][andrew] logged in via in-game ui
+[01:09:13][andrew] logged in via in-game ui
+[01:53:31][andrew] logged in via in-game ui
+[02:01:36][andrew] logged in via in-game ui
+[02:44:32][andrew] logged in via in-game ui
+[02:46:05][andrew] logged in via in-game ui
+[02:55:20][Subnoize] logged in from via NUI iframe
+[02:59:16][Subnoize] Warned player [29] JayJay: Meta/25NOV23/Sub
+[03:00:10][Subnoize] Warned player [16] FrekiTheWolf: Meta/25NOV23/Sub
+[06:00:18][SCHEDULER] Restarting server (scheduled restart at 06:00).
+[09:52:11][dmoore6688] logged in via in-game ui
+[10:00:41][dmoore6688] logged in via in-game ui
+[10:11:16][elvis] logged in via in-game ui
+[10:16:59][elvis] logged in via in-game ui
+[11:45:32][elvis] logged in via in-game ui
+[12:00:28][SCHEDULER] Restarting server (scheduled restart at 12:00).
+[12:15:18][elvis] logged in via in-game ui
+[12:30:01][oni] logged in via in-game ui
+[13:36:05][andrew] logged in via in-game ui
+[13:43:56][andrew] logged in via in-game ui
+[13:47:11][Subnoize] logged in via in-game ui
+[13:47:41][elvis] logged in via in-game ui
+[14:17:04][andrew] executed "ensure "qb-cityhall""
+[16:17:20][andrew] executed "refresh"
+[16:17:39][andrew] executed "ensure "cfx-gabz-townhall""
+[16:20:29][andrew] logged in via in-game ui
+[16:27:37][andrew] executed "refresh"
+[16:27:45][andrew] executed "restart cfx-gabz-pillbox"
+[16:27:57][andrew] executed "ensure "cfx-gabz-pillbox""
+[16:30:41][andrew] logged in via in-game ui
+[16:31:23][dmoore6688] logged in via in-game ui
+[16:44:21][andrew] executed "restart qb-cityhall"
+[16:45:17][andrew] Sending announcement: CITY HALL IS NOW OPEN!
+[16:57:25][andrew] executed "restart qp-court"
+[16:57:32][andrew] executed "restart ap-court"
+[16:59:25][andrew] executed "restart qb-cityhall"
+[16:59:32][andrew] executed "restart ap-court"
+[16:59:37][andrew] executed "restart ap-documents"
+[17:16:13][elvis] logged in via in-game ui
+[17:17:44][elvis] logged in via in-game ui
+[17:22:26][oni] logged in from 172.56.33.111 via password
+[17:26:20][oni] logged in via in-game ui
+[17:37:36][Subnoize] logged in via in-game ui
+[17:49:14][scrappy] logged in from 174.86.49.10 via password
+[18:00:38][SCHEDULER] Restarting server (scheduled restart at 18:00).
+[18:00:46][andrew] Changing discordBot settings.
+[18:01:26][andrew] Changing discordBot settings.
+[18:01:46][andrew] Changing discordBot settings.
+[18:03:02][andrew] Changing Player Manager settings.
+[18:03:28][andrew] Changing Player Manager settings.
+[18:05:04][elvis] logged in via in-game ui
+[18:08:54][oni] logged in via in-game ui
+[18:19:32][Subnoize] logged in via in-game ui
+[18:21:06][andrew] logged in via in-game ui
+[18:21:12][Subnoize] logged in via in-game ui
+[18:26:17][dmoore6688] logged in via in-game ui
+[18:27:49][andrew] executed "restart pac"
+[18:28:01][andrew] executed "restart ap-court"
+[18:29:36][andrew] executed "restart qb-cityhall"
+[18:30:42][andrew] executed "restart qb-cityhall"
+[18:31:20][andrew] executed "restart qb-cityhall"
+[18:35:42][andrew] executed "restart ps-hud"
+[19:29:50][andrew] logged in via in-game ui
+[19:33:26][andrew] logged in from 65.181.13.193 via citizenfx
+[19:33:26][dmoore6688] logged in via in-game ui
+[19:33:26][elvis] logged in via in-game ui
+[19:33:26][oni] logged in via in-game ui
+[19:33:26][Subnoize] logged in via in-game ui
+[19:33:34][andrew] executed "ensure "fs-spawnselector""
+[19:34:21][andrew] logged in via in-game ui
+[19:42:10][dmoore6688] logged in from 99.44.36.15 via citizenfx
+[19:42:11][dmoore6688] logged in via in-game ui
+[19:42:11][elvis] logged in via in-game ui
+[19:42:11][oni] logged in via in-game ui
+[19:42:11][Subnoize] logged in via in-game ui
+[19:42:11][andrew] logged in via in-game ui
+[20:20:41][Subnoize] logged in from via NUI iframe
+[20:38:03][Subnoize] logged in via in-game ui
+[20:38:36][oni] logged in via in-game ui
+[20:43:23][Subnoize] logged in via in-game ui
+[20:47:51][andrew] logged in via in-game ui
+[20:48:56][elvis] logged in via in-game ui

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+	--zoom: 80%
+}
+
+* {
+	font-family: 'Poppins', sans-serif;
+}
+
+html {
+	height: 100%;
+	display: flex;
+	background: transparent;
+}
+
+body {
+	zoom: var(--zoom);
+	display: none;
+	margin: auto;
+}
+
+.outercircle {
+	position: absolute;
+	border-radius: 50%;
+	border: solid 0.3vh #ffffff1c;
+	border-top: none;
+	border-bottom: none;
+	--radius: 25vmin;
+	width: calc(3.5 * var(--radius));
+	height: calc(3.5 * var(--radius));
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.circle {
+	display: grid;
+	grid-template-areas: 'layer';
+	place-items: center;
+	border-radius: 50%;
+	border: solid 0.3vh #ffffff58;
+	--radius: 0vmin;
+	width: 25vmin;
+	height: 25vmin;
+}
+
+.active {
+	--radius: calc(25vmin);
+}
+
+.back {
+	/* position: absolute; */
+	/*Uncomment this to make bottom*/
+	cursor: pointer;
+	grid-area: layer;
+	display: inline-flex;
+	gap: 1vh;
+	place-items: center;
+	color: white;
+	text-shadow: 0px 0px 20px #ffffffaa;
+	font-weight: 500;
+	font-size: 1.5vh;
+	bottom: 1vh;
+}
+
+.back .icon {
+	font-size: 1.5vh;
+}
+
+.stat {
+	cursor: pointer;
+	grid-area: layer;
+	display: inline-flex;
+	gap: 1vh;
+	place-items: center;
+	color: #ffff;
+	text-shadow: 0px 0px 20px #ffffffaa;
+	font-weight: 500;
+	font-size: 2vmin;
+	--d: calc(var(--i) / var(--total));
+	--r-offset: -0.25turn;
+	--r-amount: 1turn;
+	--r: calc((var(--r-amount) * var(--d)) + var(--r-offset));
+	--transform: rotate(var(--r)) translate(var(--radius)) rotate(calc(-1 * var(--r)));
+	transform: var(--transform);
+	transition: text-shadow 0.2s ease-in-out, color 0.2s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.stat:hover {
+	color: #2575ff;
+	text-shadow: 0px 0px 20px #2575ffaa;
+}
+
+.icon {
+	font-size: 3vh;
+}

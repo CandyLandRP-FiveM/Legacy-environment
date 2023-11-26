@@ -1,0 +1,21 @@
+{
+    "error" : "Error", 
+    "success" : "Success", 
+    "info" : "Info", 
+    "fail" : "You Failed", 
+    "Crafting" : "Crafting ",
+    "Blueprint" : "Blueprint ",
+    "none" : "None",
+    "Duration" : "Duration",
+    "Experience" : "Experience: ",
+    "ExpNeeded" : "Experience Needed",
+    "Items" : "Items",
+    "RequiredItems" : "You do not have required items!",
+    "RequiredExperience" : "You do not have required Experience!",
+    "RequiredBlueprint" : "You do not have required Blueprint!",
+    "RequiredJob" : "Invalid access!",
+    "TableOccupied" : "This crafting is occupied",
+    "Removed" : "Removed: ",
+    "Added" : "Added: "
+}
+

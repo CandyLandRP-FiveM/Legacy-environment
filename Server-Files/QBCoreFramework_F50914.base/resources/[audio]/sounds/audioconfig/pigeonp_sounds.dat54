@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dat54>
+ <Version value="7126027" />
+ <NameTable>
+  <Item>dlc_pigeonp\PIGEONP</Item>
+  <Item>dlc_pigeonp\PIGEONP_NPC</Item>
+ </NameTable>
+ <Items>
+  <Item type="SoundList">
+   <Name>horn_list_pigeonp</Name>
+   <Header>
+    <Flags value="0xAAAAAAAA" />
+   </Header>
+   <UnkShort value="0" />
+   <Items>
+    <Item>boxville_horn</Item>
+   </Items>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>pigeonp_door_open</Name>
+   <Header>
+    <Flags value="0x00008024" />
+    <Unk02 value="200" />
+    <Unk05 value="50" />
+    <Category>vehicles_doors</Category>
+   </Header>
+   <AudioHash0>pigeonp_door_open_simple</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>vehicles_extras_muscle_car_close</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>pigeonp_door_open_simple</Item>
+    <Item>vehicles_extras_muscle_car_close</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="WrapperSound">
+   <Name>pigeonp_door_close</Name>
+   <Header>
+    <Flags value="0x00008024" />
+    <Unk02 value="200" />
+    <Unk05 value="50" />
+    <Category>vehicles_doors</Category>
+   </Header>
+   <AudioHash0>pigeonp_door_close_simple</AudioHash0>
+   <FrameStartTime value="0" />
+   <AudioHash1>vehicles_extras_muscle_car_close</AudioHash1>
+   <FrameTimeInterval value="0" />
+   <Variables />
+   <AudioTracks>
+    <Item>pigeonp_door_close_simple</Item>
+    <Item>vehicles_extras_muscle_car_close</Item>
+   </AudioTracks>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>pigeonp_door_open_simple</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_pigeonp/pigeonp</ContainerName>
+   <FileName>rally_gen_vehicle_door_open_2</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>pigeonp_door_close_simple</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <ContainerName>dlc_pigeonp/pigeonp</ContainerName>
+   <FileName>classic_gen_vehicle_door_close</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="GranularSound">
+   <Name>pigeonp_engine_accel</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0x9555AAAA" />
+    <Category>vehicles_engines</Category>
+   </Header>
+   <WaveSlotIndex value="0" />
+   <Wave1>
+    <ContainerName>dlc_pigeonp/pigeonp</ContainerName>
+    <FileName>engine_accel</FileName>
+   </Wave1>
+   <Wave2>
+    <ContainerName>dlc_pigeonp/pigeonp</ContainerName>
+    <FileName>exhaust_accel</FileName>
+   </Wave2>
+   <Wave3>
+    <ContainerName>dlc_pigeonp/pigeonp</ContainerName>
+    <FileName>engine_decel</FileName>
+   </Wave3>
+   <Wave4>
+    <ContainerName>dlc_pigeonp/pigeonp</ContainerName>
+    <FileName>exhaust_decel</FileName>
+   </Wave4>
+   <Wave5>
+    <ContainerName>dlc_pigeonp/pigeonp</ContainerName>
+    <FileName>engine_idle</FileName>
+   </Wave5>
+   <Wave6>
+    <ContainerName>dlc_pigeonp/pigeonp</ContainerName>
+    <FileName>exhaust_idle</FileName>
+   </Wave6>
+   <DataItem1>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem1>
+   <DataItem2>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem2>
+   <DataItem3>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem3>
+   <DataItem4>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem4>
+   <DataItem5>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem5>
+   <DataItem6>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem6>
+   <UnkFloat0 value="0.01" />
+   <UnkFloat1 value="0.05" />
+   <UnkShort0 value="-500" />
+   <UnkShort1 value="-200" />
+   <UnkShort2 value="-1000" />
+   <UnkShort3 value="200" />
+   <UnkShort4 value="-1500" />
+   <UnkShort5 value="300" />
+   <TrackName />
+   <UnkVecData>
+    13.5, 47
+    8, 8
+   </UnkVecData>
+  </Item>
+  <Item type="GranularSound">
+   <Name>pigeonp_engine_accel_npc</Name>
+   <Header>
+    <Flags value="0x00008001" />
+    <Flags2 value="0x9555AAAA" />
+    <Category>vehicles_engines</Category>
+   </Header>
+   <WaveSlotIndex value="0" />
+   <Wave1>
+    <ContainerName>dlc_pigeonp/pigeonp_npc</ContainerName>
+    <FileName>engine_accel</FileName>
+   </Wave1>
+   <Wave2>
+    <ContainerName>dlc_pigeonp/pigeonp_npc</ContainerName>
+    <FileName>exhaust_accel</FileName>
+   </Wave2>
+   <Wave3>
+    <ContainerName>0</ContainerName>
+    <FileName />
+   </Wave3>
+   <Wave4>
+    <ContainerName>0</ContainerName>
+    <FileName />
+   </Wave4>
+   <Wave5>
+    <ContainerName>dlc_pigeonp/pigeonp_npc</ContainerName>
+    <FileName>engine_idle</FileName>
+   </Wave5>
+   <Wave6>
+    <ContainerName>dlc_pigeonp/pigeonp_npc</ContainerName>
+    <FileName>exhaust_idle</FileName>
+   </Wave6>
+   <DataItem1>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem1>
+   <DataItem2>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="0.5" />
+   </DataItem2>
+   <DataItem3>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem3>
+   <DataItem4>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="0" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem4>
+   <DataItem5>
+    <UnkFlags0 value="0" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem5>
+   <DataItem6>
+    <UnkFlags0 value="1" />
+    <UnkFlags1 value="1" />
+    <UnkByte0 value="0" />
+    <UnkByte1 value="0" />
+    <UnkFloat value="1" />
+   </DataItem6>
+   <UnkFloat0 value="0.01" />
+   <UnkFloat1 value="0.05" />
+   <UnkShort0 value="-500" />
+   <UnkShort1 value="-200" />
+   <UnkShort2 value="-1000" />
+   <UnkShort3 value="300" />
+   <UnkShort4 value="-1500" />
+   <UnkShort5 value="300" />
+   <TrackName>pigeonp_engine_accel</TrackName>
+   <UnkVecData>
+    13.5, 47
+    8, 8
+   </UnkVecData>
+  </Item>
+  <Item type="EnvironmentSound">
+   <Name>pigeonp_exhaust_accel</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_engines</Category>
+   </Header>
+   <UnkByte value="1" />
+  </Item>
+  <Item type="ModularSynthSound">
+   <Name>pigeonp_synth_veh_idle_sub</Name>
+   <Header>
+    <Flags value="0x00008015" />
+    <Flags2 value="0xAAA8AAAA" />
+    <Unk02 value="63936" />
+    <Unk04 value="1200" />
+    <Category>vehicles_engines_loud</Category>
+   </Header>
+   <OptAmpUnkHash>pigeonp_sub_idle</OptAmpUnkHash>
+   <UnkHash />
+   <UnkFloat value="-1" />
+   <UnkInt value="0" />
+   <TrackCount value="0" />
+   <AudioTracks>
+    <Item />
+    <Item />
+    <Item />
+    <Item />
+   </AudioTracks>
+   <UnkItems>
+    <Item>
+     <UnkHash>hash_ABD2A3D6</UnkHash>
+     <ParameterHash />
+     <Value value="13.5" />
+    </Item>
+    <Item>
+     <UnkHash>hash_AAED9868</UnkHash>
+     <ParameterHash />
+     <Value value="47" />
+    </Item>
+    <Item>
+     <UnkHash>hash_4E132C3B</UnkHash>
+     <ParameterHash />
+     <Value value="1" />
+    </Item>
+    <Item>
+     <UnkHash>hash_18B20B91</UnkHash>
+     <ParameterHash />
+     <Value value="3" />
+    </Item>
+    <Item>
+     <UnkHash>hash_E07986E5</UnkHash>
+     <ParameterHash />
+     <Value value="3.5" />
+    </Item>
+    <Item>
+     <UnkHash>hash_52E84522</UnkHash>
+     <ParameterHash />
+     <Value value="1.5" />
+    </Item>
+    <Item>
+     <UnkHash>hash_8115C581</UnkHash>
+     <ParameterHash />
+     <Value value="2" />
+    </Item>
+    <Item>
+     <UnkHash>hash_24E7B0B4</UnkHash>
+     <ParameterHash />
+     <Value value="10" />
+    </Item>
+    <Item>
+     <UnkHash>hash_D250E3B7</UnkHash>
+     <ParameterHash />
+     <Value value="1" />
+    </Item>
+    <Item>
+     <UnkHash>hash_15857327</UnkHash>
+     <ParameterHash />
+     <Value value="250" />
+    </Item>
+    <Item>
+     <UnkHash>hash_39B29F61</UnkHash>
+     <ParameterHash />
+     <Value value="0.2" />
+    </Item>
+   </UnkItems>
+  </Item>
+  <Item type="ParameterTransformSound">
+   <Name>pigeonp_startup_sequence</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <AudioHash>hash_7DA2DB72</AudioHash>
+   <Items>
+    <Item>
+     <ParameterHash>hash_A69EF7A1</ParameterHash>
+     <UnkFloat0 value="0" />
+     <UnkFloat1 value="5" />
+     <NestedData>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="7" />
+       <ParameterHash>hash_0EB27990</ParameterHash>
+       <UnkFloat1 value="0" />
+       <UnkFloat2 value="1" />
+       <Vectors>
+        0, 0
+        0.03426933, 1
+        0.08142266, 1
+        0.1076034, 0
+        1, 0
+       </Vectors>
+      </Item>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="7" />
+       <ParameterHash>hash_CEB98BEB</ParameterHash>
+       <UnkFloat1 value="0" />
+       <UnkFloat2 value="1" />
+       <Vectors>
+        0, 0.2
+        0.06475534, 0.6666666
+        0.1776034, 0.3928
+        0.4466673, 0.2
+       </Vectors>
+      </Item>
+      <Item>
+       <UnkFloat0 value="-1" />
+       <UnkInt value="7" />
+       <ParameterHash>hash_91DF7F97</ParameterHash>
+       <UnkFloat1 value="0" />
+       <UnkFloat2 value="1" />
+       <Vectors>
+        0, 0
+        0.0009367257, 1
+        0.5976034, 1
+        0.6, 0
+       </Vectors>
+      </Item>
+     </NestedData>
+    </Item>
+   </Items>
+  </Item>
+  <Item type="SimpleSound">
+   <Name>pigeonp_shut_down</Name>
+   <Header>
+    <Flags value="0x00008000" />
+    <Category>vehicles_engines_startup</Category>
+   </Header>
+   <ContainerName>dlc_pigeonp/pigeonp</ContainerName>
+   <FileName>shut_down</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="SimpleSound">
+   <Name>pigeonp_start_up</Name>
+   <Header>
+    <Flags value="0x00008004" />
+    <Unk02 value="65336" />
+    <Category>vehicles_engines_loud</Category>
+   </Header>
+   <ContainerName>dlc_pigeonp/pigeonp</ContainerName>
+   <FileName>start_up</FileName>
+   <WaveSlotNum value="0" />
+  </Item>
+  <Item type="RandomizedSound">
+   <Name>police_scanner_category_pigeonp_rnd</Name>
+   <Header>
+    <Flags value="0x00000000" />
+   </Header>
+   <UnkByte value="0" />
+   <UnkBytes />
+   <Items>
+    <Item key="police_scanner_vehicle_category_scooter_01" value="1" />
+    <Item key="police_scanner_vehicle_category_moped_b" value="1" />
+    <Item key="police_scanner_vehicle_category_2door_b" value="1" />
+    <Item key="police_scanner_01_vehicle_category_vehicle_category_service_vehicle_01" value="0.5" />
+   </Items>
+  </Item>
+ </Items>
+</Dat54>

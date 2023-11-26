@@ -1,0 +1,52 @@
+{
+  "global": {
+    "serverName": "CandylandRP",
+    "language": "en",
+    "menuEnabled": true,
+    "menuAlignRight": false,
+    "menuPageKey": "Tab",
+    "hideDefaultAnnouncement": false,
+    "hideDefaultDirectMessage": false,
+    "hideDefaultWarning": false,
+    "hideDefaultScheduledRestartWarning": false
+  },
+  "logger": {},
+  "monitor": {
+    "restarterSchedule": [
+      "06:00",
+      "12:00",
+      "18:00",
+      "00:00"
+    ],
+    "resourceStartingTolerance": 90
+  },
+  "playerDatabase": {
+    "onJoinCheckBan": true,
+    "whitelistMode": "guildRoles",
+    "whitelistedDiscordRoles": [
+      "1146579485613895682"
+    ],
+    "whitelistRejectionMessage": "Please join discord.gg/candylandrp and verify to join our server",
+    "requiredBanHwidMatches": 1,
+    "banRejectionMessage": "You can join discord.gg/candylandrp and create a ticket to appeal this ban."
+  },
+  "webServer": {
+    "disableNuiSourceCheck": false
+  },
+  "discordBot": {
+    "enabled": true,
+    "token": "MTE1NjI5NDQ0MzUzNjc2MDgzMg.G4esF0.O2j9QVr2eR50MrcSJql_koOq4OMhOqOc7w6_R8",
+    "guild": "1146579485571952710",
+    "announceChannel": "1154847593441013810",
+    "embedJson": "{\n  \"title\": \"{{serverName}}\",\n  \"url\": \"{{serverBrowserUrl}}\",\n  \"description\": \"You can configure this embed in `txAdmin > Settings > Discord Bot`, and edit everything from it (except footer).\",\n  \"fields\": [\n    {\n      \"name\": \"> STATUS\",\n      \"value\": \"```\\n{{statusString}}\\n```\",\n      \"inline\": true\n    },\n    {\n      \"name\": \"> PLAYERS\",\n      \"value\": \"```\\n{{serverClients}}/{{serverMaxClients}}\\n```\",\n      \"inline\": true\n    },\n    {\n      \"name\": \"> F8 CONNECT COMMAND\",\n      \"value\": \"```\\nconnect 123.123.123.123\\n```\"\n    },\n    {\n      \"name\": \"> NEXT RESTART\",\n      \"value\": \"```\\n{{nextScheduledRestart}}\\n```\",\n      \"inline\": true\n    },\n    {\n      \"name\": \"> UPTIME\",\n      \"value\": \"```\\n{{uptime}}\\n```\",\n      \"inline\": true\n    }\n  ],\n  \"image\": {\n    \"url\": \"https://i.imgur.com/ZZRp4pj.png\"\n  },\n  \"thumbnail\": {\n    \"url\": \"https://i.imgur.com/9i9lvOp.png\"\n  }\n}",
+    "embedConfigJson": "{\n  \"onlineString\": \"🟢 Online\",\n  \"onlineColor\": \"#0BA70B\",\n  \"partialString\": \"🟡 Partial\",\n  \"partialColor\": \"#FFF100\",\n  \"offlineString\": \"🔴 Offline\",\n  \"offlineColor\": \"#A70B28\",\n  \"buttons\": [\n    {\n      \"emoji\": \"1062338355909640233\",\n      \"label\": \"Connect\",\n      \"url\": \"{{serverJoinUrl}}\"\n    }\n  ]\n}"
+  },
+  "fxRunner": {
+    "serverDataPath": "C:/Users/Administrator/Desktop/GitHub/Live-Environment/Server-Files/QBCoreFramework_F50914.base/",
+    "cfgPath": "C:/Users/Administrator/Desktop/GitHub/Live-Environment/Server-Files/QBCoreFramework_F50914.base/server.cfg",
+    "commandLine": "",
+    "onesync": "legacy",
+    "autostart": true,
+    "quiet": false
+  }
+}

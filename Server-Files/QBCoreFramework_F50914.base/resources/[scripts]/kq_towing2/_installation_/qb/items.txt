@@ -1,0 +1,3 @@
+
+	["kq_tow_rope"] 			 = {["name"] = "kq_tow_rope", 			    ["label"] = "Towing rope",	["weight"] = 2000, 		["type"] = "item", 		["image"] = "kq_tow_rope.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Rope used for towing vehicles"},
+	["kq_winch"] 			     = {["name"] = "kq_winch", 			        ["label"] = "Car winch",	["weight"] = 4000, 		["type"] = "item", 		["image"] = "kq_winch.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Car winch made to winch heavy vehicles"},

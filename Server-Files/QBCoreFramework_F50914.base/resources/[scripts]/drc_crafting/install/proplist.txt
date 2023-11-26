@@ -1,0 +1,2 @@
+1. Proplist for your prop whitelist/blakclist
+prop_tool_screwdvr02

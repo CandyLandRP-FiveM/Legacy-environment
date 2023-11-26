@@ -1,0 +1,5 @@
+-------------
+-- USE THIS FILE TO TRANSLATE THE SCRIPT
+-- LANG LOCATION : shared/lang.lua
+-- Copy ONLY values you want edit, NOT ALL the Lang file
+-------------

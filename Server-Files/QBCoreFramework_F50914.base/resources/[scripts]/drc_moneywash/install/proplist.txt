@@ -1,0 +1,13 @@
+1. Proplist for your prop whitelist/blakclist
+prop_tool_screwdvr01 
+bkr_prop_coke_tin_01
+bkr_prop_tin_cash_01a
+bkr_prop_money_unsorted_01
+bkr_prop_money_wrapped_01
+bkr_prop_fakeid_papercutter
+bkr_prop_cutter_moneypage
+bkr_prop_cutter_moneystack_01a
+bkr_prop_cutter_moneystrip
+bkr_prop_cutter_singlestack_01a
+bkr_prop_money_pokerbucket
+bkr_prop_money_unsorted_01

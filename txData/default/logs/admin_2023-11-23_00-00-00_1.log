@@ -1,0 +1,345 @@
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 6683 Starting - 11/19/2023, 10:57:01 AM
+================================================================
+[11:01:18][dmoore6688] created admins file
+[11:08:00][dmoore6688] Changing global/fxserver settings via setup stepper.
+[11:13:25][dmoore6688] executed "STOP SERVER"
+[11:14:42][dmoore6688] executed "START SERVER"
+[11:22:01][dmoore6688] executed "STOP SERVER"
+[11:23:11][dmoore6688] executed "START SERVER"
+[11:33:16][dmoore6688] executed "STOP SERVER"
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 6683 Starting - 11/19/2023, 11:37:53 AM
+================================================================
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 6683 Starting - 11/19/2023, 11:53:20 AM
+================================================================
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 6683 Starting - 11/19/2023, 12:17:24 PM
+================================================================
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 6683 Starting - 11/19/2023, 12:19:28 PM
+================================================================
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 6683 Starting - 11/19/2023, 2:14:47 PM
+================================================================
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 6683 Starting - 11/19/2023, 3:04:01 PM
+================================================================
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 6683 Starting - 11/19/2023, 3:13:34 PM
+================================================================
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 6683 Starting - 11/19/2023, 3:15:07 PM
+================================================================
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 6683 Starting - 11/19/2023, 3:23:33 PM
+================================================================
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 6683 Starting - 11/19/2023, 3:30:48 PM
+================================================================
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 6683 Starting - 11/19/2023, 3:33:39 PM
+================================================================
+[15:36:55][dmoore6688] logged in from 127.0.0.1 via citizenfx
+[15:37:38][dmoore6688] Changing fxRunner settings.
+[15:39:52][dmoore6688] executed "RESTART SERVER"
+[15:42:06][dmoore6688] executed "RESTART SERVER"
+[15:50:10][dmoore6688] executed "STOP SERVER"
+[15:57:52][dmoore6688] Changing discordBot settings.
+[15:58:03][dmoore6688] executed "START SERVER"
+[16:00:25][dmoore6688] executed "STOP SERVER"
+[16:01:24][dmoore6688] executed "START SERVER"
+[16:17:48][dmoore6688] executed "RESTART SERVER"
+[16:23:10][dmoore6688] executed "STOP SERVER"
+[16:25:10][dmoore6688] executed "START SERVER"
+[16:27:48][dmoore6688] executed "RESTART SERVER"
+[16:45:30][dmoore6688] executed "RESTART SERVER"
+[17:42:42][dmoore6688] executed "RESTART SERVER"
+[17:46:41][dmoore6688] executed "RESTART SERVER"
+[17:55:10][dmoore6688] executed "STOP SERVER"
+[17:56:16][dmoore6688] executed "START SERVER"
+[17:58:56][dmoore6688] Adding admin 'Subnoize'.
+[18:05:18][dmoore6688] executed "RESTART SERVER"
+[18:08:49][Subnoize] logged in from 120.156.0.175 via citizenfx
+[18:09:15][Subnoize] logged in via in-game ui
+[18:09:22][Subnoize] logged in via in-game ui
+[18:12:18][Subnoize] logged in via in-game ui
+[18:14:18][dmoore6688] executed "stop "connectqueue""
+[18:15:40][Subnoize] logged in via in-game ui
+[18:27:03][Subnoize] Changing own password.
+[18:27:04][Subnoize] logged in via in-game ui
+[18:28:51][dmoore6688] executed "STOP SERVER"
+[18:29:43][dmoore6688] executed "START SERVER"
+[18:33:30][dmoore6688] executed "stop "connectqueue""
+[18:34:40][Subnoize] logged in via in-game ui
+[20:40:39][dmoore6688] executed "RESTART SERVER"
+[20:42:31][Subnoize] logged in via in-game ui
+[20:44:13][dmoore6688] executed "STOP SERVER"
+[20:58:56][dmoore6688] executed "START SERVER"
+[21:00:48][Subnoize] logged in via in-game ui
+[21:10:13][dmoore6688] logged in via in-game ui
+[21:26:20][dmoore6688] executed "RESTART SERVER"
+[21:28:15][Subnoize] logged in via in-game ui
+[21:39:05][dmoore6688] executed "STOP SERVER"
+[21:39:52][dmoore6688] executed "START SERVER"
+[21:44:48][Subnoize] logged in via in-game ui
+[21:52:37][dmoore6688] logged in via in-game ui
+[21:59:45][dmoore6688] logged in from 99.44.36.15 via citizenfx
+[21:59:45][dmoore6688] logged in via in-game ui
+[21:59:45][Subnoize] logged in via in-game ui
+[23:48:50][dmoore6688] logged in via in-game ui
+[11:04:43][dmoore6688] Adding admin 'scrappy'.
+[11:07:13][dmoore6688] Editing user 'dmoore6688'.
+[11:08:10][dmoore6688] Adding admin 'oni'.
+[11:08:10][oni] logged in via in-game ui
+[11:10:26][dmoore6688] Adding admin 'tone'.
+[11:10:27][oni] logged in via in-game ui
+[11:13:00][oni] logged in from 172.58.240.227 via password
+[11:13:21][oni] Changing own password.
+[11:22:45][dmoore6688] Adding admin 'elvis'.
+[11:31:48][dmoore6688] logged in via in-game ui
+[11:55:57][tone] logged in from 172.58.187.134 via password
+[12:11:24][dmoore6688] Changing monitor settings.
+[12:19:45][tone] Changing own password.
+[12:20:44][dmoore6688] logged in via in-game ui
+[12:23:24][dmoore6688] logged in via in-game ui
+[12:43:52][dmoore6688] executed "/revive 45"
+[12:43:56][dmoore6688] executed "revive 45"
+[13:35:41][oni] logged in via in-game ui
+[13:37:40][dmoore6688] executed "giveitem cash 1000000 inventory 44"
+[13:40:09][Subnoize] logged in via in-game ui
+[14:00:45][scrappy] logged in from 174.86.49.10 via password
+[14:01:05][scrappy] Changing own password.
+[14:01:05][dmoore6688] logged in via in-game ui
+[14:01:05][Subnoize] logged in via in-game ui
+[14:03:12][scrappy] logged in via in-game ui
+[14:11:38][oni] logged in via in-game ui
+[14:55:38][Subnoize] logged in via in-game ui
+[15:00:06][Subnoize] logged in from via NUI iframe
+[15:00:59][oni] logged in via in-game ui
+[15:02:54][Subnoize] logged in via in-game ui
+[15:48:21][elvis] logged in via in-game ui
+[16:04:09][dmoore6688] logged in from 127.0.0.1 via citizenfx
+[16:04:09][dmoore6688] logged in via in-game ui
+[16:04:09][elvis] logged in via in-game ui
+[16:04:09][oni] logged in via in-game ui
+[16:04:09][Subnoize] logged in via in-game ui
+[16:06:24][scrappy] logged in via in-game ui
+[16:08:57][Subnoize] logged in via in-game ui
+[16:19:04][oni] logged in from via NUI iframe
+[16:28:20][scrappy] logged in via in-game ui
+[16:38:57][scrappy] DM to #Triton: youre down. stop talking
+[17:23:40][elvis] logged in via in-game ui
+[17:30:52][scrappy] logged in via in-game ui
+[17:44:20][elvis] logged in via in-game ui
+[17:46:39][dmoore6688] logged in via in-game ui
+[17:59:43][oni] logged in via in-game ui
+[18:00:19][SCHEDULER] Restarting server (scheduled restart at 18:00).
+[18:05:01][elvis] logged in via in-game ui
+[18:06:27][scrappy] logged in via in-game ui
+[18:06:34][elvis] logged in via in-game ui
+[18:08:04][dmoore6688] logged in via in-game ui
+[18:27:07][elvis] logged in via in-game ui
+[19:24:03][elvis] logged in via in-game ui
+[20:23:56][dmoore6688] logged in via in-game ui
+[21:28:13][elvis] logged in via in-game ui
+[22:10:33][dmoore6688] logged in via in-game ui
+[22:41:18][dmoore6688] logged in from 99.44.36.15 via citizenfx
+[23:53:32][dmoore6688] Cancelling next scheduled restart.
+[23:53:37][dmoore6688] executed "RESTART SERVER"
+[23:55:05][dmoore6688] executed "pac install"
+[00:48:11][dmoore6688] executed "stop "connectqueue""
+[00:51:26][dmoore6688] executed "RESTART SERVER"
+[00:57:54][dmoore6688] executed "RESTART SERVER"
+[00:59:44][Subnoize] logged in via in-game ui
+[01:00:16][elvis] logged in via in-game ui
+[06:00:36][SCHEDULER] Restarting server (scheduled restart at 06:00).
+[08:33:17][tone] logged in via in-game ui
+[11:24:57][elvis] logged in via in-game ui
+[11:39:34][dmoore6688] logged in via in-game ui
+[12:00:45][SCHEDULER] Restarting server (scheduled restart at 12:00).
+[12:03:15][tone] logged in via in-game ui
+[12:06:29][dmoore6688] logged in via in-game ui
+[12:12:29][dmoore6688] logged in via in-game ui
+[12:23:19][elvis] logged in via in-game ui
+[12:35:42][tone] logged in via in-game ui
+[14:49:42][Subnoize] logged in via in-game ui
+[15:35:52][tone] logged in via in-game ui
+[15:39:07][elvis] logged in via in-game ui
+[15:48:53][oni] logged in via in-game ui
+[15:56:27][elvis] logged in via in-game ui
+[16:25:13][elvis] logged in via in-game ui
+[16:29:27][oni] logged in from 172.56.33.99 via password
+[16:41:25][elvis] logged in via in-game ui
+[17:03:06][oni] logged in via in-game ui
+[17:18:40][dmoore6688] logged in from 127.0.0.1 via citizenfx
+[17:18:40][dmoore6688] logged in via in-game ui
+[17:18:40][tone] logged in via in-game ui
+[17:18:40][oni] logged in via in-game ui
+[17:43:08][oni] logged in via in-game ui
+[17:45:29][elvis] logged in via in-game ui
+[17:49:47][elvis] logged in via in-game ui
+[18:00:54][SCHEDULER] Restarting server (scheduled restart at 18:00).
+[18:02:08][dmoore6688] executed "RESTART SERVER"
+[18:03:14][dmoore6688] executed "pac install"
+[18:03:24][dmoore6688] executed "RESTART SERVER"
+[18:05:00][elvis] logged in via in-game ui
+[18:05:51][Subnoize] logged in via in-game ui
+[18:09:58][dmoore6688] executed "ensure "weaponKatanaC""
+[18:19:11][elvis] logged in via in-game ui
+[18:25:02][dmoore6688] logged in via in-game ui
+[18:26:52][dmoore6688] logged in via in-game ui
+[22:25:33][Subnoize] logged in via in-game ui
+[23:14:12][dmoore6688] executed "RESTART SERVER"
+[23:21:27][Subnoize] logged in via in-game ui
+[23:22:58][dmoore6688] executed "ensure "weaponKatanaC""
+[23:22:59][dmoore6688] executed "ensure "weaponKatanaL""
+[23:23:09][dmoore6688] executed "ensure "weaponKatanaP""
+[00:00:03][SCHEDULER] Restarting server (scheduled restart at 00:00).
+[06:00:14][SCHEDULER] Restarting server (scheduled restart at 06:00).
+[07:46:57][dmoore6688] logged in from 99.44.36.15 via citizenfx
+[07:56:00][dmoore6688] logged in via in-game ui
+[10:15:02][dmoore6688] logged in via in-game ui
+[10:42:18][dmoore6688] executed "ensure "weaponKatanaC""
+[10:44:33][dmoore6688] logged in via in-game ui
+[12:00:24][SCHEDULER] Restarting server (scheduled restart at 12:00).
+[12:05:15][dmoore6688] logged in via in-game ui
+[12:07:39][scrappy] logged in via in-game ui
+[13:45:36][scrappy] logged in via in-game ui
+[14:16:45][Subnoize] logged in via in-game ui
+[14:27:23][dmoore6688] executed "ensure "weaponKatanaC""
+[14:27:24][dmoore6688] executed "ensure "weaponKatanaL""
+[14:27:24][dmoore6688] executed "ensure "weaponKatanaP""
+[14:32:12][scrappy] logged in via in-game ui
+[15:11:57][dmoore6688] logged in via in-game ui
+[15:13:04][oni] logged in via in-game ui
+[15:29:04][oni] logged in via in-game ui
+[15:49:15][oni] logged in via in-game ui
+[16:04:51][oni] logged in via in-game ui
+[16:40:33][elvis] logged in via in-game ui
+[17:26:17][elvis] logged in via in-game ui
+[17:48:17][tone] logged in via in-game ui
+[17:53:21][elvis] logged in via in-game ui
+[18:00:34][SCHEDULER] Restarting server (scheduled restart at 18:00).
+[18:02:31][scrappy] logged in via in-game ui
+[18:09:51][elvis] logged in via in-game ui
+[18:10:37][dmoore6688] logged in via in-game ui
+[18:19:07][scrappy] logged in from 174.86.49.10 via password
+[18:38:23][elvis] logged in via in-game ui
+[19:28:50][elvis] logged in via in-game ui
+[20:02:52][scrappy] logged in via in-game ui
+[20:17:13][Subnoize] logged in from 120.156.0.175 via citizenfx
+[20:20:10][dmoore6688] logged in via in-game ui
+[20:39:43][oni] logged in via in-game ui
+[21:00:03][dmoore6688] Sending announcement: storm incoming 5 min- server performance should improve
+[21:05:39][dmoore6688] executed "RESTART SERVER"
+[21:07:40][elvis] logged in via in-game ui
+[21:08:18][dmoore6688] logged in via in-game ui
+[21:24:06][dmoore6688] executed "RESTART SERVER"
+[21:27:53][dmoore6688] logged in via in-game ui
+[21:27:54][elvis] logged in via in-game ui
+[21:29:07][elvis] logged in via in-game ui
+[22:30:39][dmoore6688] Adding admin 'andrew'.
+[22:30:39][andrew] logged in via in-game ui
+[22:36:52][andrew] logged in from 65.181.13.193 via password
+[22:37:04][andrew] Changing own password.
+[22:37:05][andrew] logged in via in-game ui
+[22:40:33][scrappy] logged in via in-game ui
+[22:41:29][scrappy] logged in from via NUI iframe
+[22:45:04][andrew] Editing user 'andrew'.
+[22:45:04][scrappy] logged in via in-game ui
+[22:45:04][andrew] logged in via in-game ui
+[22:45:38][andrew] logged in from 65.181.13.193 via citizenfx
+[22:45:38][scrappy] logged in via in-game ui
+[22:45:38][andrew] logged in via in-game ui
+[22:49:36][scrappy] logged in from 174.86.49.10 via password
+[22:51:13][dmoore6688] logged in via in-game ui
+[22:52:44][dmoore6688] logged in from via NUI iframe
+[22:53:17][dmoore6688] Editing user 'scrappy'.
+[22:53:17][dmoore6688] logged in via in-game ui
+[22:53:17][scrappy] logged in via in-game ui
+[23:35:03][dmoore6688] logged in from 127.0.0.1 via citizenfx
+[23:35:03][scrappy] logged in via in-game ui
+[23:59:44][elvis] logged in via in-game ui
+[00:00:53][SCHEDULER] Restarting server (scheduled restart at 00:00).
+[00:05:55][elvis] logged in via in-game ui
+[00:06:09][scrappy] logged in via in-game ui
+[00:06:16][Subnoize] executed "RESTART SERVER"
+[00:08:33][elvis] logged in via in-game ui
+[00:08:33][scrappy] logged in via in-game ui
+[00:09:53][Subnoize] logged in via in-game ui
+[00:13:40][dmoore6688] logged in via in-game ui
+[00:17:02][elvis] logged in via in-game ui
+[00:17:43][andrew] logged in via in-game ui
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 6683 Starting - 11/23/2023, 12:32:44 AM
+================================================================
+[00:34:23][dmoore6688] logged in from 99.44.36.15 via citizenfx
+[00:34:46][andrew] logged in via in-game ui
+[00:34:56][Subnoize] logged in via in-game ui
+[00:35:07][elvis] logged in via in-game ui
+[00:35:27][andrew] logged in from via NUI iframe
+[01:59:37][tone] logged in via in-game ui
+[02:06:46][andrew] logged in from 65.181.13.193 via citizenfx
+[06:00:52][SCHEDULER] Restarting server (scheduled restart at 06:00).
+[08:36:00][oni] logged in via in-game ui
+[08:40:57][oni] logged in from 172.58.191.29 via password
+[08:53:32][oni] logged in via in-game ui
+[09:05:30][oni] executed "RESTART SERVER"
+[09:08:22][scrappy] logged in from 174.86.49.10 via password
+[09:09:42][oni] Banned player Barthalamew: Hacking and trolling
+[09:11:16][scrappy] logged in via in-game ui
+[09:14:57][scrappy] Changing Player Manager settings.
+[09:21:51][oni] Editing user 'tone'.
+[09:21:51][scrappy] logged in via in-game ui
+[09:22:47][oni] Editing user 'tone'.
+[09:22:47][scrappy] logged in via in-game ui
+[09:23:55][tone] logged in from 172.56.32.119 via password
+[09:31:43][oni] logged in via in-game ui
+[09:34:07][scrappy] logged in via in-game ui
+[09:58:46][elvis] logged in via in-game ui
+[10:47:23][scrappy] logged in via in-game ui
+[11:32:31][oni] logged in via in-game ui
+[12:00:02][SCHEDULER] Restarting server (scheduled restart at 12:00).
+[12:04:24][oni] logged in via in-game ui
+[12:18:41][elvis] logged in via in-game ui
+[13:17:30][Subnoize] logged in via in-game ui
+[14:10:58][scrappy] logged in via in-game ui
+[15:51:20][dmoore6688] logged in from 127.0.0.1 via citizenfx
+[15:51:21][Subnoize] logged in via in-game ui
+[15:53:27][oni] Sending announcement: Maintenance restart in 5 min, Sorry! 
+[15:59:10][oni] executed "RESTART SERVER"
+[16:03:26][Subnoize] logged in via in-game ui
+[16:06:15][dmoore6688] executed "RESTART SERVER"
+[16:08:45][dmoore6688] executed "RESTART SERVER"
+[16:10:24][dmoore6688] executed "RESTART SERVER"
+[16:12:26][Subnoize] logged in via in-game ui
+[16:12:58][elvis] logged in via in-game ui
+[16:14:30][Subnoize] logged in via in-game ui
+[16:34:43][elvis] logged in via in-game ui
+[16:35:14][dmoore6688] logged in via in-game ui
+[16:39:18][oni] logged in via in-game ui
+[16:44:40][oni] logged in via in-game ui
+[18:00:14][SCHEDULER] Restarting server (scheduled restart at 18:00).
+[18:07:52][dmoore6688] logged in via in-game ui
+[18:09:18][elvis] logged in via in-game ui
+[18:11:13][elvis] logged in via in-game ui
+[18:56:28][elvis] logged in via in-game ui
+[19:57:31][elvis] logged in via in-game ui
+[20:02:27][Subnoize] logged in via in-game ui
+[21:51:53][dmoore6688] Sending announcement: The server will be doing maintenance in 9 minutes onwards. Server will be closed during this time.
+[22:04:08][dmoore6688] executed "STOP SERVER"

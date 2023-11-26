@@ -1,0 +1,26 @@
+[Corridor Coords]
+
+-250.76770019531,172.07591247559,21.241508483887
+
+-250.76770019531,172.07591247559,34.282451629639
+
+-250.76770019531,172.07591247559,-5.7435064315796
+
+-250.76770019531,172.07591247559,-24.076444625854
+
+-250.76770019531,172.07591247559,-39.826377868652
+
+-250.76770019531,172.07591247559,-56.20630645752
+
+[Penthouse Coords] 
+
+-269.25720000,183.84510000,3.38400500
+
+[Lobby Coords]
+
+-306.89800000,205.14700000,92.24900000
+
+----------------------------------------------
+You can modify the hotel corridors as you wish, if you want to remove them delete one of the respective ymap folders inside \stream\[corridor]
+
+The hotel has 12 rooms per corridor, with a total of 6 corridors 

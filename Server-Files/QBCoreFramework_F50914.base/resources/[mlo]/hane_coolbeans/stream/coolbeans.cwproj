@@ -1,0 +1,17 @@
+<CodeWalkerProject>
+  <Name>New CodeWalker Project</Name>
+  <Version value="1" />
+  <YmapFilenames>
+    <Item>hane_coolbeans_milo_.ymap</Item>
+    <Item>exterior\hane_coolbeans_ext_props.ymap</Item>
+  </YmapFilenames>
+  <YtypFilenames>
+    <Item>hane_coolbeans.ytyp</Item>
+  </YtypFilenames>
+  <YbnFilenames />
+  <YndFilenames />
+  <YnvFilenames />
+  <TrainsFilenames />
+  <ScenarioFilenames />
+  <AudioRelFilenames />
+</CodeWalkerProject>

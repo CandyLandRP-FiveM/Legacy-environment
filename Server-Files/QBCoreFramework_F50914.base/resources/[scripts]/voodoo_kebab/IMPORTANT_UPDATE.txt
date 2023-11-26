@@ -1,0 +1,12 @@
+-- !!!!!!!!!
+-- ADD IN YOUR SERVER THIS ITEM, YOU CAN CHANGE LABEL NAME, IT IS USED TO START THE SCRIPT, WHEN SOMEONE USES IT THE BLIP APPEARS, TO DEACTIVATE THE BLIP USE THE MENU
+
+--	['voodoo_fdtool'] 				= {['name'] = 'voodoo_fdtool', 			 		['label'] = 'Cooking Book', 					['weight'] = 200, 		['type'] = 'item', 		['image'] = 'pasta.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'LICK ME!'},
+
+
+-------------------------------------------
+
+Added jobs for any recipe!!!!
+
+
+the "job" field has been added for each recipe. Please specify only one job. If the recipe is free for everyone, do not include the job field in the recipe!

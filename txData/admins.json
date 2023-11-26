@@ -1,0 +1,153 @@
+[
+  {
+    "name": "dmoore6688",
+    "master": true,
+    "password_hash": "$2a$11$ptH0novQ30DXFgcvprpGFuYjvRtWyxeCm9ngN5DkUnxTKhTZ2JToe",
+    "providers": {
+      "citizenfx": {
+        "id": "dmoore6688",
+        "identifier": "fivem:10768516",
+        "data": {
+          "sub": "282ea6b0d7830e47fa28c8b62fa59139",
+          "nameid": "https://forum.cfx.re/internal/user/10768516",
+          "name": "dmoore6688",
+          "picture": "https://forum.cfx.re/user_avatar/forum.cfx.re/dmoore6688/256/3605761_2.png",
+          "profile": "https://forum.cfx.re/u/dmoore6688"
+        }
+      },
+      "discord": {
+        "id": "1115114133302550599",
+        "identifier": "discord:1115114133302550599",
+        "data": {}
+      }
+    },
+    "permissions": []
+  },
+  {
+    "name": "Subnoize",
+    "master": false,
+    "password_hash": "$2a$11$t.I0X2rIxgjJMKe7kIW3i.fut.8SVNepFN675WmKnla9vRR6dpcvO",
+    "providers": {
+      "citizenfx": {
+        "id": "Subnoize",
+        "identifier": "fivem:891169",
+        "data": {
+          "sub": "74d27ec09afd5920282ec3362554195a",
+          "nameid": "https://forum.cfx.re/internal/user/891169",
+          "name": "Subnoize",
+          "picture": "https://forum.cfx.re/user_avatar/forum.cfx.re/subnoize/256/694353_2.png",
+          "profile": "https://forum.cfx.re/u/Subnoize"
+        }
+      },
+      "discord": {
+        "id": "130235740318597120",
+        "identifier": "discord:130235740318597120",
+        "data": {}
+      }
+    },
+    "permissions": [
+      "all_permissions"
+    ]
+  },
+  {
+    "name": "scrappy",
+    "master": false,
+    "password_hash": "$2a$11$7AR7Fh3ZrN4wjSHgcGAll.mR8GwWrVA6R5eO23js0XMhPG5iXOehi",
+    "providers": {
+      "discord": {
+        "id": "206656473625788417",
+        "identifier": "discord:206656473625788417",
+        "data": {}
+      },
+      "citizenfx": {
+        "id": "scrappymama",
+        "identifier": "fivem:7209838",
+        "data": {}
+      }
+    },
+    "permissions": [
+      "all_permissions"
+    ]
+  },
+  {
+    "name": "oni",
+    "master": false,
+    "password_hash": "$2a$11$jSE0O2o4/X.g7QCFvvE73.OWsxdWEgjCwRUsStS3iMkbCrjU98U9C",
+    "providers": {
+      "discord": {
+        "id": "411742241892204554",
+        "identifier": "discord:411742241892204554",
+        "data": {}
+      }
+    },
+    "permissions": [
+      "all_permissions"
+    ]
+  },
+  {
+    "name": "tone",
+    "master": false,
+    "password_hash": "$2a$11$k0.p8Oo1t4SbyLmSGmzWzuNlz319Dh/3V9aELjPZ.g0IHyxKNWg/q",
+    "providers": {
+      "discord": {
+        "id": "445306853174280198",
+        "identifier": "discord:445306853174280198",
+        "data": {}
+      }
+    },
+    "permissions": [
+      "console.view",
+      "menu.vehicle",
+      "menu.viewids",
+      "players.warn",
+      "players.kick",
+      "players.ban",
+      "players.heal",
+      "players.playermode",
+      "players.spectate",
+      "players.teleport"
+    ]
+  },
+  {
+    "name": "elvis",
+    "master": false,
+    "password_hash": "$2a$11$TFAtXf7yvFycNYpDtUlaTeWJJyHQvYMdsNt/phURfRWKAyE.o7QoK",
+    "password_temporary": true,
+    "providers": {
+      "discord": {
+        "id": "863885648673636392",
+        "identifier": "discord:863885648673636392",
+        "data": {}
+      }
+    },
+    "permissions": [
+      "all_permissions"
+    ]
+  },
+  {
+    "name": "andrew",
+    "master": false,
+    "password_hash": "$2a$11$iW/qjVa4GhEI1Cjz0fMSoeol8/G1WLgpHXNy8ZBIlygHfkOx06UH2",
+    "providers": {
+      "discord": {
+        "id": "252354071380361218",
+        "identifier": "discord:252354071380361218",
+        "data": {}
+      },
+      "citizenfx": {
+        "id": "gaming_panthers",
+        "identifier": "fivem:219368",
+        "data": {
+          "sub": "c447c3550a3a1f8b5a06a149e92a4f81",
+          "nameid": "https://forum.cfx.re/internal/user/219368",
+          "name": "Gaming_Panthers",
+          "picture": "https://forum.cfx.re/user_avatar/forum.cfx.re/gaming_panthers/256/483475_2.png",
+          "profile": "https://forum.cfx.re/u/Gaming_Panthers"
+        }
+      }
+    },
+    "permissions": [
+      "all_permissions"
+    ]
+  }
+]
