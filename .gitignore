@@ -6,14 +6,17 @@ Server-Files/*.crt
 Server-Files/citizen/
 Server-Files/crashes/
 Server-Files/QBCoreFramework_F50914.base/cache/
-Server-Files/QBCoreFramework_F50914.base/resources/[Cars-General]/
-Server-Files/QBCoreFramework_F50914.base/resources/[Cars-Govt]/
-Server-Files/QBCoreFramework_F50914.base/resources/[mlo]/
-Server-Files/QBCoreFramework_F50914.base/resources/eup-stream-f
-Server-Files/QBCoreFramework_F50914.base/resources/eup-stream-f-pd
-Server-Files/QBCoreFramework_F50914.base/resources/eup-stream-m
-Server-Files/QBCoreFramework_F50914.base/resources/eup-stream-m-pd
-Server-Files/QBCoreFramework_F50914.base/resources/eup-stream-m-wlist
+
+
+## streamed assets
+#Server-Files/QBCoreFramework_F50914.base/resources/[Cars-General]/
+#Server-Files/QBCoreFramework_F50914.base/resources/[Cars-Govt]/
+#Server-Files/QBCoreFramework_F50914.base/resources/[mlo]/
+#Server-Files/QBCoreFramework_F50914.base/resources/eup-stream-f
+#Server-Files/QBCoreFramework_F50914.base/resources/eup-stream-f-pd
+#Server-Files/QBCoreFramework_F50914.base/resources/eup-stream-m
+#Server-Files/QBCoreFramework_F50914.base/resources/eup-stream-m-pd
+#Server-Files/QBCoreFramework_F50914.base/resources/eup-stream-m-wlist
 
 ## remove # if need to ignore these files below.
 #Server-Files/QBCoreFramework_F50914.base/db
