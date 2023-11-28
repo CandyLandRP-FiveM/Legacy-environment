@@ -75,7 +75,7 @@ Config.QbNotify = true
 -- You can do this by importing the "boss_reputation.sql" file
 -- If true the player will level up when robbing houses, eventually unlocking high tier houses
 -- If false the player will receive a random tier house
-Config.Reputation = true
+Config.Reputation = false
 
 -- Max reputation = Config.MaxLevel * 10000 = 100000
 -- 10% max rep = Lvl 1, 20% max rep = lvl 2, 30% max rep = lvl 3
