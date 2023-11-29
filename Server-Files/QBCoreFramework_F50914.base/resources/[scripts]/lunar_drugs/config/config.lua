@@ -73,7 +73,7 @@ Config.Weed = {
 		--This will give you 10 weed for fully grown and max quality plant. 
 		--100.0 (Growth) * 100.0 (Quality) / 1000.0 (ResultDivisor) = 10 weed
 		--Lower this value to get more weed.
-		ResultDivisor = 1000.0,
+		ResultDivisor = 500.0,
 
 		-- Durations
 		PlantDuration = 10000,
@@ -380,7 +380,7 @@ Config.DoorSales = {
 		{
 			Name = 'weed_bag',
 			Account = 'money',
-			Price = 50
+			Price = 25
 		},
 		{
 			Name = 'heroin_bag',
