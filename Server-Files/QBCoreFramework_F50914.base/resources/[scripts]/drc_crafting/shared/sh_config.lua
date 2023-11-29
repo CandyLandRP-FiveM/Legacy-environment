@@ -1560,7 +1560,7 @@ Config.Craftings = {
         job = { name = pawn, grade = 0, }, -- Required job to open crafting station
         type = "Table", -- Table, Marker, PolyZone
         Positions = { coords = vector3(169.24, -1315.92, 29.34), radius = 1.0, debug = false }, -- Circle PolyZone
-        Table = { Type = "target" --[[help, target]] , Prop = `prop_tool_bench02`, Heading = 280.88,
+        Table = { Type = "target" --[[help, target]] , Prop = `prop_tool_bench02`, Heading = 345.88,
             DrawDistance = 100.0 },
         Marker = { DrawDistance = 0.0, Type = 0, Size = { x = 0.0, y = 0.0, z = 0.0 },
             Color = { r = 8, g = 137, b = 255, a = 150 } },

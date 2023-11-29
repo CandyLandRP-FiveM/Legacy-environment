@@ -26,9 +26,6 @@ server_exports {
     'RemoveGangMoney',
     'GetAccount',
     'GetGangAccount',
-    'AddMoneyOkokBanking', -- add this
-    'RemoveMoneyOkokBanking', -- add this
-    'TransferMoneyOkokBanking' -- add this
 }
 
 lua54 'yes'
