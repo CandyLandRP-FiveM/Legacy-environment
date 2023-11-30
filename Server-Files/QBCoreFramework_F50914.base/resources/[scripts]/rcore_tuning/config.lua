@@ -178,7 +178,7 @@ TuningShops = {
 			 --["modNitrous"] = true -- All upgrade names can be found under Config.MenuOrder under the respective category
 		},
 		-- motorcycleOnly = true,
-		   carOnly = true,
+	    --  carOnly = true,
 	},
 	CyberPerformance = {
 		
@@ -218,7 +218,7 @@ TuningShops = {
 			 --["modNitrous"] = true -- All upgrade names can be found under Config.MenuOrder under the respective category
 		},
 		-- motorcycleOnly = true,
-		   carOnly = true,
+		--carOnly = true,
 	},	
 	Pops = {
 		
@@ -258,7 +258,7 @@ TuningShops = {
 			 --["modNitrous"] = true -- All upgrade names can be found under Config.MenuOrder under the respective category
 		},
 		-- motorcycleOnly = true,
-		   --carOnly = true,
+		--carOnly = true,
 	},
 	Flokis2 = {
 		
