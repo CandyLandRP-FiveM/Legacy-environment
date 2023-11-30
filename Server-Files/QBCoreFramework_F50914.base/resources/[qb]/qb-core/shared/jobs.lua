@@ -23,38 +23,38 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Cadet',
-                payment = 200
+                payment = 300
             },
 			['1'] = {
                 name = 'Officer',
-                payment = 275
+                payment = 350
             },
 			['2'] = {
                 name = 'Corporal',
-                payment = 300
+                payment = 400
             },
             ['3'] = {
                 name = 'Sergeant',
-                payment = 325
+                payment = 450
             },
 			['4'] = {
                 name = 'Lieutenant',
-                payment = 350
+                payment = 500
             },
             ['5'] = {
                 name = 'Captain',
                 isboss = true,
-                payment = 375
+                payment = 550
             },
             ['6'] = {
                 name = 'Ass Chief',
 				isboss = true,
-                payment = 400
+                payment = 600
             },
             ['7'] = {
                 name = 'Chief',
 				isboss = true,
-                payment = 425
+                payment = 650
             },
         },
 	},
@@ -66,33 +66,33 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Recruit',
-                payment = 200
+                payment = 300
             },
 			['1'] = {
                 name = 'EMT',
-                payment = 275   
+                payment = 350   
             },
 			['2'] = {
                 name = 'Paramedic',
-                payment = 300
+                payment = 400
             },
 			['3'] = {
                 name = 'Head Paramedic',
-                payment = 325
+                payment = 450
             },
 			['4'] = {
                 name = 'Doctor',
-                payment = 375
+                payment = 500
             },
             ['5'] = {
                 name = 'Medical Administrator',
 				isboss = true,
-                payment = 400
+                payment = 550
             },
             ['6'] = {
                 name = 'Medical Director',
 				isboss = true,
-                payment = 425
+                payment = 600
             },
         },
 	},

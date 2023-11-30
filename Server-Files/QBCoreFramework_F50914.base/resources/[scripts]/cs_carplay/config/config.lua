@@ -23,7 +23,7 @@ CodeStudio.Main = {
         Item = 'carplay'   --Item Name
     },
     RadioInstall = {
-        Enable = true,      --Enable this if you want mechanics to manually install radios on owned vehicles
+        Enable = false,      --Enable this if you want mechanics to manually install radios on owned vehicles
         Options = {
             Item = 'carplay',   --Alternatively put false and you can also use the event directly from other scripts
             OnlyOwned = true,   --Enable to allow radios to be installed only in owned vehicles, not on NPC vehicles

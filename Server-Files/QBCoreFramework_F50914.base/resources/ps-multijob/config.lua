@@ -69,7 +69,6 @@ Config.Descriptions = {
 	["cortez"] = "If you Know you Know",
 	["pawn"] = "The finest Silver and Gold Trader known to the gods",
 	["rws"] = "Premium Goods at Wholesale Prices",
-
 }
 
 -- Change the icons to any free font awesome icon, also add other jobs your server might have to the list
@@ -105,5 +104,4 @@ Config.FontAwesomeIcons = {
 	["cortez"] = "fa-solid fa-money-bill",
 	["pawn"] = "fa-solid fa-money-bill",
 	["rws"] = "fa-solid fa-truck",
-
 }

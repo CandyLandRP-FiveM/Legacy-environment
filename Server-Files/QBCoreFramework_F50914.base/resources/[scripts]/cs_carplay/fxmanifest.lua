@@ -1,5 +1,5 @@
 fx_version 'adamant'
-version '1.1'
+version '1.2'
 game 'gta5'
 author 'CodeStudio'
 description 'Code Studio Car Play'

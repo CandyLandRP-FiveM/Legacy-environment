@@ -440,6 +440,18 @@ Config.GarageLocations = {
       scale = 0.6,
     },
   },
+  pops = {
+    coords = vector3(1755.19, 3334.22, 41.24),
+    spawn = vector4(1755.19, 3334.22, 41.24, 297.96),
+    distance = 10,
+    type = 'car',
+    hideBlip = true,
+    blip = {
+      id = 410,
+      color = 0,
+      scale = 0.6,
+    },
+  },
 }
 Config.JobGarageShowBlips = false
 Config.JobGarageUniqueBlips = false

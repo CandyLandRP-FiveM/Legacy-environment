@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="style.css"/>
 </head>
-<body>
+<body style="background-color: transparent !important";>
     <div class="drag-container">
         <div class="draggable">
             <div class="wrapper dark-mode">
-                <img class="home-background" src="image/wallpaper/1.jpg">   
+                <img class="home-background" src="image/wallpaper/6.jpeg">   
                 <div class="left-slider">
                     <div class="left-time">
                         <p class="left-time-text">12:00</p>
@@ -34,7 +34,18 @@
                                     <p class="location-title-text">Los Santos</p>
                                 </div>
                                 <div class="weather-image">
-                                    <img src="image/weather-images/cloud.png" class="weather-logo">
+                                    <div class="weather-logo">
+                                        <div class="cloud front">
+                                          <span class="left-front"></span>
+                                          <span class="right-front"></span>
+                                        </div>
+                                        <span class="sun sunshine"></span>
+                                        <span class="sun"></span>
+                                        <div class="cloud back">
+                                          <span class="left-back"></span>
+                                          <span class="right-back"></span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="time-cont">
@@ -46,17 +57,20 @@
                         </div>
                         <div class="map-cont">
                             <p class="maps-title">Maps</p>
+                            <img src="image/map-arrow.png" class="map-arrow-image">
+                            <img src="image/Union.png" class="union-arrow-design">
+                            <img src="image/mapzoom.png" class="map-zoom-image">
                             <p class="maps-distance">
-                                <span class="fa-solid fa-location-dot"></span>
+                                <span>123</span>
                             </p>
                         </div>
                     </div>
                     <div class="right-slider">
                         <div class="short-music-card">
-                            <img class="music-card" src="image/fm.png">
+                            <img class="music-card" src="image/music-note.png">
                             <div class="song-card-information">
                                 <div class="music-card-title">No Music Playing</div>
-                                <div class="music-card-sub-artistname">Music Player</div>
+                                <!-- <div class="music-card-sub-artistname">Music Player</div> -->
                                 <div class="song-card-btns">
                                     <i class="menu-music-back fa-solid fa-backward-step"></i>
                                     <i class="menu-music-stop fa-solid fa-play"></i>
@@ -97,11 +111,15 @@
                     </div>
                     <div class="app home-snake-game">
                         <img src="image/apps/snakegame.png" class="app-icon">
-                        <p class="app-title">Game</p>
+                        <p class="app-title">Snake Game</p>
+                    </div>
+                    <div class="app home-dashboard-app">
+                        <img src="image/apps/my-shortcuts.png" class="app-icon">
+                        <p class="app-title">Automation</p>
                     </div>
                 </div>
                 <div class="music-app" active='true'>
-                    <img src="image/fm.png" class="bg-music-app">
+                    <img src="image/fm.jpeg" class="bg-music-app">
                     <div class="music-app-header">
                         <div class="music-back-arrow">
                             <i class="fa-solid fa-circle-arrow-left"></i>
@@ -121,9 +139,9 @@
                     </div>
                     <div class="music-app-middle">
                         <div class="music-song-content">
-                            <div class="music-song-title">
+                            <marquee class="music-song-title">
                                 <p>No Music Playing</p>
-                            </div>
+                            </marquee>
                             <div class="music-song-subtitle">
                                 <p>Music Player</p>
                             </div>
@@ -134,7 +152,7 @@
                             </div>
                         </div>
                         <div class="music-song-thumbnail">
-                            <img src="image/fm.png" class="music-thumbnail">
+                            <img src="image/fm.jpeg" class="music-thumbnail">
                         </div>
                     </div>
                     <div class="music-app-sliderbar">
@@ -172,7 +190,7 @@
                         <div class="playlist-song">
                             <div class="playlist-song-img">
                                 <div class="saved-song-img">
-                                    <img src="image/fm.png">
+                                    <img src="image/fm.jpeg">
                                 </div>
                             </div>
                             <div class="playlist-song-title">
@@ -506,6 +524,10 @@
                         <div class="scanner-gif-cont">
                             <img src="image/fingerprint-screen.png" class="gif-scan">
                         </div>
+                        <div class="sign-text-box">
+                            <h3 class="touch-id-text">Touch ID</h3>
+                            <h5 class="touch-sub-text">Sign in to your Carplay</h5>
+                        </div>
                         <div class="sign-in-text">
                             <p class="sign-in-button">Sign In</p>
                         </div>
@@ -566,8 +588,10 @@
                     </div>
                     <div class="wallpaper-insert-url">
                        <div class="insert-url-box">
-                        <h3 class="insert-wallpaper-title">Insert Custom Wallpaper URL</h3>
-                        <input type="text" name="text" class="insert-url-wallpaper" placeholder="Enter URL">
+                        <h3 class="insert-wallpaper-title">Insert Wallpaper URL</h3>
+                        <div class="insert-url-input-box">
+                            <input type="text" name="text" class="insert-url-wallpaper" placeholder="Enter URL">
+                        </div>
                         <div class="insert-url-close-btns">
                             <div class="save-url-btn">Save</div>
                             <div class="close-url-btn">Close</div>
@@ -576,31 +600,25 @@
                     </div>
                     <div class="wallpaper-middle">
                         <div class="wallpaper-box">
-                            <img src="image/wallpaper/1.jpg" class="wallpaper-image">
+                            <img src="image/wallpaper/1.jpeg" class="wallpaper-image">
                         </div>
                         <div class="wallpaper-box">
-                            <img src="image/wallpaper/2.jpg" class="wallpaper-image">
+                            <img src="image/wallpaper/2.jpeg" class="wallpaper-image">
                         </div>
                         <div class="wallpaper-box">
-                            <img src="image/wallpaper/3.jpg" class="wallpaper-image">
+                            <img src="image/wallpaper/3.jpeg" class="wallpaper-image">
                         </div>
                         <div class="wallpaper-box">
-                            <img src="image/wallpaper/4.jpg" class="wallpaper-image">
+                            <img src="image/wallpaper/4.jpeg" class="wallpaper-image">
                         </div>
                         <div class="wallpaper-box">
-                            <img src="image/wallpaper/5.jpg" class="wallpaper-image">
+                            <img src="image/wallpaper/5.jpeg" class="wallpaper-image">
                         </div>
                         <div class="wallpaper-box">
-                            <img src="image/wallpaper/6.jpg" class="wallpaper-image">
+                            <img src="image/wallpaper/6.jpeg" class="wallpaper-image">
                         </div>
                         <div class="wallpaper-box">
-                            <img src="image/wallpaper/7.jpg" class="wallpaper-image">
-                        </div>
-                        <div class="wallpaper-box">
-                            <img src="image/wallpaper/8.jpg" class="wallpaper-image">
-                        </div>
-                        <div class="wallpaper-box">
-                            <img src="image/wallpaper/9.jpg" class="wallpaper-image">
+                            <img src="image/wallpaper/7.jpeg" class="wallpaper-image">
                         </div>
                     </div>
                 </div>
@@ -686,9 +704,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="snake-game-app">
-                    <iframe src="http://slither.io/" scrolling="no" allowfullscreen="" width="900" height="506" frameborder="0" class="sliter-game"></iframe>
-                </div>
+                <div class="snake-game-app"></div>
                 <div class="siri-app">
                     <div class="siri-qa-cont">
                         <div class="siri-qa-box"></div>
@@ -699,6 +715,60 @@
                             <div class="siri-search-icon"><i class="fa-solid fa-arrow-right"></i></div>
                         </div>
                     </div>
+                </div>
+                <div class="dashboard-app">
+                    <div class="playlist-header">
+                        <div class="playlist-back-arrow dashboard-back-btn">
+                            <i class="fa-solid fa-circle-arrow-left"></i>
+                            <p class="back-title">Back</p>
+                        </div>
+                        <div class="playlist-title-cont">
+                            <p>Car Automation</p>
+                        </div>
+                    </div>
+                   <div class="dashboard-middle-container">
+                      <img src="image/dashboard.png" class="dashboard-image">
+                      <div class="dashboard-speed-box">
+                        <h2>0</h2>
+                      </div>
+                      <div class="dashboard-speed-text-box">
+                        <h2>km/h</h2>
+                      </div>
+                      <div class="dashboard-gear-text">
+                        <h2>Gear</h2>
+                      </div>
+                      <div class="dashboard-rpm-box">
+                        <h2>0</h2>
+                      </div>
+                      <div class="dashboard-time-box">
+                        <h4 class="dashboard-time">12:00</h4>
+                      </div>
+                      <div class="dashboard-content-box">
+                        <div class="dashboard-location-box">
+                            <div class="dashboard-location-icon-box-container">
+                                <div class="dashboard-location-icon-box">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                            </div>
+                            <div class="dashboard-location-text">
+                                <div class="dashboard-location-title">Los Santos</div>
+                                <div class="dashboard-location-sub-title">Location</div>
+                            </div>
+                        </div>
+                        <div class="dashboard-distance-box">
+                            <div class="dashboard-distance-time">
+                                <div class="dashboard-distance-title">10km</div>
+                                <div class="dashboard-distance-sub-title">Distance</div>
+                            </div>
+                            <div class="dashboard-distance-stop-container">
+                                <h5 class="dashboard-stop-btn">Stop</h5>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="dashboard-start-container">
+                        <h5>Start Auto Pilot</h5>
+                      </div>
+                   </div>
                 </div>
                 <div class="notification-container animate__animated ">
                     <div class="car-play-notification">
@@ -720,7 +790,7 @@
     </div>
     <div class="mini-ui-draggable dark-mode">
         <div class="cd-container">
-            <img src="image/fm.png" class="mini-ui-image-rotate">
+            <img src="image/fm.jpeg" class="mini-ui-image-rotate">
             <div class="cd-container-inside-dot"></div>
         </div>
         <div class="mini-song-info-cont">

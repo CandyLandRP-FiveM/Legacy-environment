@@ -34,23 +34,6 @@ function checkOwnedVehicle(plate, callback)
 end
 
 
--- Radio Installer Item --
-
--- If you are using a standalone, use events to achieve the same functionality --
-
-if CodeStudio.Main.RadioInstall.Options.Item then 
-    if CodeStudio.ServerType == 'ESX' then
-        ESX.RegisterUsableItem(CodeStudio.Main.RadioInstall.Options.Item, function(source)
-            TriggerClientEvent('cs:carPlay:installRadio', source)
-        end)
-    elseif CodeStudio.ServerType == 'QB' then
-        QBCore.Functions.CreateUseableItem(CodeStudio.Main.RadioInstall.Options.Item, function(source)
-            TriggerClientEvent('cs:carPlay:installRadio', source)
-        end)
-    end
-end
-
-
 
 -- Get Player Name + Identifier [For Playlist Feature]---
 
@@ -92,6 +75,77 @@ function GetPlayerData(src)
     end
 end
 
+
+
+
+-- Radio Installer Item --
+
+
+-- If you are using a standalone, use events to achieve the same functionality --
+
+if CodeStudio.Main.RadioInstall.Options.RadioItem then 
+    if CodeStudio.ServerType == 'ESX' then
+        ESX.RegisterUsableItem(CodeStudio.Main.RadioInstall.Options.RadioInstallerItem, function(source)
+            TriggerClientEvent('cs:carPlay:installRadio', source)
+        end)
+    elseif CodeStudio.ServerType == 'QB' then
+        QBCore.Functions.CreateUseableItem(CodeStudio.Main.RadioInstall.Options.RadioInstallerItem, function(source)
+            TriggerClientEvent('cs:carPlay:installRadio', source)
+        end)
+    end
+end
+
+-- Function to Check if Player have RadioItem [*Required Item for Radio Installation]--
+
+function checkRadioItem(src, callback)
+    local radioItem = CodeStudio.Main.RadioInstall.Options.RadioItem
+
+    if CodeStudio.ServerType == 'ESX' then
+        local Player = ESX.GetPlayerFromId(src)
+        local itemCount = Player.getInventoryItem(radioItem).count
+        if itemCount > 0 then
+            callback(true)
+        else
+            callback(false)
+        end
+    elseif CodeStudio.ServerType == 'QB' then
+        local Player = QBCore.Functions.GetPlayer(src)
+        if Player.Functions.GetItemByName(radioItem) ~= nil then
+            callback(true)
+        else
+            callback(false)
+        end
+    end
+end
+
+
+--- Function to Add/Remove RadioItem during Radio Installation--
+
+function RadioInstallRemove(playerID, remove)
+    local src = playerID
+    local radioItem = CodeStudio.Main.RadioInstall.Options.RadioItem
+    if remove then
+        if CodeStudio.ServerType == 'ESX' then
+            local Player = ESX.GetPlayerFromId(src)
+            Player.removeInventoryItem(radioItem, 1)
+        elseif CodeStudio.ServerType == 'QB' then
+            local Player = QBCore.Functions.GetPlayer(src)
+            Player.Functions.RemoveItem(radioItem, 1)
+        end
+
+        -- exports['qs-inventory']:RemoveItem(src, radioItem, 1)
+    else
+        if CodeStudio.ServerType == 'ESX' then
+            local Player = ESX.GetPlayerFromId(src)
+            Player.addInventoryItem(radioItem, 1)
+        elseif CodeStudio.ServerType == 'QB' then
+            local Player = QBCore.Functions.GetPlayer(src)
+            Player.Functions.AddItem(radioItem, 1)
+        end
+        
+        -- exports['qs-inventory']:AddItem(src, radioItem, 1)
+    end
+end
 
 
 

@@ -1,14 +1,14 @@
 -- Configure this According to your needs --
 
 WEATHER_TYPES = {
-    { hash = -1750463879, name = "CLEAR", img = 'sunny.png' },
-    { hash = 916995460, name = "CLOUDS", img = 'cloud.png' },
-    { hash = -1530260698, name = "EXTRASUNNY", img = 'sun.png' },
-    { hash = -1148613331, name = "OVERCAST", img = 'cloud.png' },
-    { hash = 1420204096, name = "RAIN", img = 'rain.png' },
-    { hash = -1233681761, name = "THUNDER", img = 'rain.png' },
-    { hash = -1368164796, name = "SNOW", img = 'snow.png'  },
-    { hash = -1429616491, name = "XMAS", img = 'snow.png'  },
+    { hash = -1750463879, name = "CLEAR"},
+    { hash = 916995460, name = "CLOUDS"},
+    { hash = -1530260698, name = "EXTRASUNNY"},
+    { hash = -1148613331, name = "OVERCAST"},
+    { hash = 1420204096, name = "RAIN"},
+    { hash = -1233681761, name = "THUNDER"},
+    { hash = -1368164796, name = "SNOW"},
+    { hash = -1429616491, name = "XMAS"},
     -- Add more weather types as needed --
 }
 
@@ -70,7 +70,6 @@ end
 
 function InstallRadio(plate, install)
     -- Add a progress bar or mini-game if you want --
-
     TriggerServerEvent('cs:carplay:addInstall', plate, install)
 
     -- Optional ox_lib progressbar method --
